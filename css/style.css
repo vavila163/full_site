@@ -20,6 +20,7 @@ body {
 .top-block {
 	background: url(../img/bg-top-block.gif) repeat 0 0;
 	border-bottom: 4px solid #242424;
+	padding-bottom: 85px;
 }
 
 header {
@@ -87,7 +88,8 @@ form {
  .carousel-indicators {
  	text-align: right;
  	margin: 0;
- 	padding: -15px;
+ 	bottom: -15px;
+ 	width: 70%;
  }
 
  .carousel-indicators li,.carousel-indicators .active {
@@ -96,6 +98,7 @@ form {
  	border: none;
  	background: #888888;
  	border-radius: 0;
+ 	margin: 0;
  }
 
  .carousel-indicators .active {
@@ -105,3 +108,54 @@ form {
  .pb30 {
  	padding-bottom: 30px;
  }
+
+ .col-md-5 h3 {
+ 	padding-bottom: 27px;
+ }
+
+ .col-md-5 p {
+ 	padding-bottom: 17px;
+ }
+
+ .middle-white-block {
+ 	background: #fff;
+ 	color: #333333;
+ }
+
+ .flex-block {
+ 	display: flex;
+ }
+
+ .flex-item {
+ 	padding: 25px;
+ 	margin-top: -65px;
+ 	background: #fff;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ }
+
+ .flex-item h4 {
+ 	font-size: 15px;
+ 	color: #171717;
+ 	font-weight: bold;
+ }
+
+ .grey {
+ 	color: #8e8e8e;
+ }
+
+ .read-more {
+ 	color: #333333;
+ 	text-transform: capitalize;
+ 	font-weight: bold;
+ 	padding-top: 17px;
+ 	padding-bottom: 17px;
+ 	background: url(../img/divider.png) repeat-x 0 0;
+ 	display: block;
+ }
+
+  .read-more:hover {
+  	background: url(../img/divider-bot.gif) repeat-x 0 100% #777;
+  	color: #fff;
+  	transition: 1.5s background;
+  }
